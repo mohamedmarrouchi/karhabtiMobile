@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resource majorVersion="1" minorVersion="7" useXmlUI="false">
+    <ui name="Acceuil" />
+    <ui name="Ajouter" />
+    <image name="collection-gratuit-voitures-top-background-walls-wallpapers-115676.jpg"  />
+    <ui name="GererTests" />
+    <ui name="GUI 1" />
+    <ui name="Home" />
+    <image name="ic_colorpicker_swatch_selected.png" type="multi"  />
+    <image name="ic_delete.png" type="multi"  />
+    <image name="ic_fav.png" type="multi"  />
+    <image name="ic_launcher.png" type="multi"  />
+    <image name="ic_new.png" type="multi"  />
+    <image name="ic_new_pressed.png" type="multi"  />
+    <image name="ic_note_colour.png" type="multi"  />
+    <image name="ic_unfav.png" type="multi"  />
+    <ui name="Modifier" />
+    <ui name="niveauUn" />
+    <ui name="Rechercher" />
+    <l10n name="strings">
+        <lang name="en-rUS">
+            <entry key="action_font_size" value="Note font size" />
+            <entry key="dialog_backup_created" value="Backup created in" />
+            <entry key="toast_deleted" value="Delete successful" />
+            <entry key="note_title" value="Title" />
+            <entry key="toast_edittext_cannot_be_empty" value="Title cannot be empty" />
+            <entry key="dialog_rate_message" value="Open app in Play Store?         (Thank you for rating! We really appreciate it!)" />
+            <entry key="toast_new_note" value="Note created" />
+            <entry key="toast_note_body_showing" value="Note body will now be shown in notes list" />
+            <entry key="no_button" value="No" />
+            <entry key="dialog_restore_failed" value="To restore notes, the backup file         has to be in \'External/Swiftnotes/swiftnotes_backup.json\'" />
+            <entry key="dialog_save_changes" value="Save changes?" />
+            <entry key="action_restore" value="Restore notes" />
+            <entry key="note_body" value="Note" />
+            <entry key="toast_restore_unsuccessful" value="Restore unsuccessful" />
+            <entry key="dialog_restore_failed_title" value="No backup found" />
+            <entry key="toast_note_body_hidden" value="Note body will now be hidden in notes list" />
+            <entry key="toast_restore_successful" value="Notes restored" />
+            <entry key="action_delete_selected_number" value="Selected" />
+            <entry key="favourite_content_description" value="Favorite" />
+            <entry key="dialog_rate_title" value="Rate app" />
+            <entry key="action_delete" value="Delete" />
+            <entry key="toast_empty_note_discarded" value="Empty note discarded" />
+            <entry key="dialog_note_colour" value="Change note color" />
+            <entry key="action_rate_app" value="Rate app" />
+            <entry key="dialog_check_restore_if_sure" value="Are you sure you want to restore backup notes?         (Cannot be undone)" />
+            <entry key="toast_backup_failed" value="Backup unsuccessful" />
+            <entry key="dialog_delete" value="Selected notes will be deleted!" />
+            <entry key="dialog_font_size" value="Change note font size" />
+            <entry key="yes_button" value="Yes" />
+            <entry key="no_notes_text" value="Press '+' to add new note" />
+            <entry key="dialog_backup_created_title" value="Backup successful" />
+            <entry key="action_show_body" value="Show note body in list" />
+            <entry key="toast_note_saved" value="Note saved" />
+            <entry key="action_search" value="Search" />
+            <entry key="action_backup" value="Backup notes" />
+            <entry key="title_edit_notes_activity" value="Note" />
+            <entry key="new_note_content_description" value="New note" />
+            <entry key="toast_backup_no_notes" value="No notes to backup" />
+            <entry key="action_note_colour" value="Note color" />
+            <entry key="action_hide_body" value="Hide note body in list" />
+            <entry key="app_name" value="Swiftnotes" />
+            <entry key="dialog_check_backup_if_sure" value="Are you sure you want to backup current notes?" />
+        </lang>
+        <lang name="fr">
+            <entry key="action_font_size" value="Taille de police de la note" />
+            <entry key="dialog_backup_created" value="Sauvegarde cr&#xe9;&#xe9;e dans" />
+            <entry key="toast_deleted" value="Supprimer succ&#xe8;s" />
+            <entry key="note_title" value="Titre" />
+            <entry key="toast_edittext_cannot_be_empty" value="Le titre ne peut pas &#xea;tre vide" />
+            <entry key="dialog_rate_message" value="Ouvrir l\'app dans le Google Play Store ?         (Merci pour la note ! Nous appr&#xe9;cions vraiment cela! )" />
+            <entry key="toast_new_note" value="Note cr&#xe9;&#xe9;e" />
+            <entry key="toast_note_body_showing" value="Note corps sera d&#xe9;sormais affich&#xe9; en liste notes" />
+            <entry key="no_button" value="Non" />
+            <entry key="dialog_restore_failed" value="Pour restaurer des notes, le fichier de sauvegarde         doit &#xea;tre dans \'External/Swiftnotes/swiftnotes_backup.json\'" />
+            <entry key="dialog_save_changes" value="Sauvegarder les changements ?" />
+            <entry key="action_restore" value="Restorer les notes" />
+            <entry key="note_body" value="Note" />
+            <entry key="toast_restore_unsuccessful" value="&#xc9;chec de la restauration" />
+            <entry key="dialog_restore_failed_title" value="Aucune sauvegarde trouv&#xe9;e" />
+            <entry key="toast_note_body_hidden" value="Note corps va maintenant &#xea;tre masqu&#xe9;s dans liste de notes" />
+            <entry key="toast_restore_successful" value="Notes restaur&#xe9;es" />
+            <entry key="action_delete_selected_number" value="S&#xe9;lectionn&#xe9;" />
+            <entry key="favourite_content_description" value="Favori" />
+            <entry key="dialog_rate_title" value="Notez l\'app" />
+            <entry key="action_delete" value="Supprimer" />
+            <entry key="toast_empty_note_discarded" value="Note vide supprim&#xe9;e" />
+            <entry key="dialog_note_colour" value="Changer la couleur de la note" />
+            <entry key="action_rate_app" value="Notez l\'app" />
+            <entry key="dialog_check_restore_if_sure" value="&#xca;tes vous s&#xfb;r de vouloir restaurer les notes sauvegard&#xe9;es ?         (Ne peut pas &#xea;tre annul&#xe9;)" />
+            <entry key="toast_backup_failed" value="Sauvegarde non r&#xe9;ussie" />
+            <entry key="dialog_delete" value="Notes s&#xe9;lectionn&#xe9;es seront supprim&#xe9;s!" />
+            <entry key="dialog_font_size" value="Changer la taille de police de la note" />
+            <entry key="yes_button" value="Oui" />
+            <entry key="no_notes_text" value="Appuyez sur '+' pour ajouter une nouvelle note" />
+            <entry key="dialog_backup_created_title" value="Sauvegarde r&#xe9;ussie" />
+            <entry key="action_show_body" value="Afficher la note corps dans la liste" />
+            <entry key="toast_note_saved" value="Note sauvegard&#xe9;e" />
+            <entry key="action_search" value="Recherche" />
+            <entry key="action_backup" value="Sauvegarder les notes" />
+            <entry key="title_edit_notes_activity" value="Note" />
+            <entry key="new_note_content_description" value="Nouvelle note" />
+            <entry key="toast_backup_no_notes" value="Pas de notes &#xe0; sauvegarder" />
+            <entry key="action_note_colour" value="Couleur de la note" />
+            <entry key="action_hide_body" value="Masquer note corps dans la liste" />
+            <entry key="app_name" value="Swiftnotes" />
+            <entry key="dialog_check_backup_if_sure" value="&#xca;tes vous s&#xfb;r de vouloir sauvegarder les notes actuelles ?" />
+        </lang>
+        <lang name="nl">
+            <entry key="action_font_size" value="Notitie lettergrootte" />
+            <entry key="dialog_backup_created" value="Backup gemaakt op" />
+            <entry key="toast_deleted" value="Verwijderen voltooid" />
+            <entry key="note_title" value="Titel" />
+            <entry key="toast_edittext_cannot_be_empty" value="Titel kan niet leeg zijn" />
+            <entry key="dialog_rate_message" value="Open app in Play Store?         (Bedankt voor het beoordelen! We waarderen uw inbreng!)" />
+            <entry key="toast_new_note" value="Notitie gemaakt" />
+            <entry key="toast_note_body_showing" value="Notitie-inhoud zal nu getoond worden in notitielijst" />
+            <entry key="no_button" value="Nee" />
+            <entry key="dialog_restore_failed" value="Om notities te herstellen, moet het backupbestand          in \'External/Swiftnotes/swiftnotes_backup.json\' zitten" />
+            <entry key="dialog_save_changes" value="Wijzigingen opslaan?" />
+            <entry key="action_restore" value="Herstel notities" />
+            <entry key="note_body" value="Notitie" />
+            <entry key="toast_restore_unsuccessful" value="Herstellen mislukt" />
+            <entry key="dialog_restore_failed_title" value="Geen backup gevonden" />
+            <entry key="toast_note_body_hidden" value="Notitie-inhoud zal nu verborgen zijn in notitielijst" />
+            <entry key="toast_restore_successful" value="Notities hersteld" />
+            <entry key="action_delete_selected_number" value="Geselecteerd" />
+            <entry key="favourite_content_description" value="Favoriet" />
+            <entry key="dialog_rate_title" value="Beoordeel app" />
+            <entry key="action_delete" value="Verwijderen" />
+            <entry key="toast_empty_note_discarded" value="Lege notitie genegeerd" />
+            <entry key="dialog_note_colour" value="Verander notitiekleur" />
+            <entry key="action_rate_app" value="Beoordeel app" />
+            <entry key="dialog_check_restore_if_sure" value="Weet u zeker dat u de backup van notities wilt herstellen?         (Kan niet ongedaan worden gemaakt)" />
+            <entry key="toast_backup_failed" value="Backup mislukt" />
+            <entry key="dialog_delete" value="Geselecteerde notities worden verwijderd!" />
+            <entry key="dialog_font_size" value="Wijzig notitie lettergrootte" />
+            <entry key="yes_button" value="Ja" />
+            <entry key="no_notes_text" value="Druk '+' om een notitie toe te voegen" />
+            <entry key="dialog_backup_created_title" value="Backup voltooid" />
+            <entry key="action_show_body" value="Weergeef notitie-inhoud in lijst" />
+            <entry key="toast_note_saved" value="Notitie opgeslagen" />
+            <entry key="action_search" value="Zoek" />
+            <entry key="action_backup" value="Backup notities" />
+            <entry key="title_edit_notes_activity" value="Notitie" />
+            <entry key="new_note_content_description" value="Nieuwe notitie" />
+            <entry key="toast_backup_no_notes" value="Geen notities om te backuppen" />
+            <entry key="action_note_colour" value="Notitiekleur" />
+            <entry key="action_hide_body" value="Verberg notitie-inhoud in lijst" />
+            <entry key="app_name" value="Swiftnotes" />
+            <entry key="dialog_check_backup_if_sure" value="Weet u zeker dat u een backup wilt maken van de huidige notities?" />
+        </lang>
+        <lang name="sv">
+            <entry key="action_font_size" value="Anteckningens textstorlek" />
+            <entry key="dialog_backup_created" value="S&#xe4;kerhetskopia skapades i" />
+            <entry key="toast_deleted" value="Borttagningen lyckades" />
+            <entry key="note_title" value="Titel" />
+            <entry key="toast_edittext_cannot_be_empty" value="Titeln kan inte vara tom" />
+            <entry key="dialog_rate_message" value="&#xd6;ppna appen i Play Store?         (Tack f&#xf6;r ditt betyg! Vi uppskattar det verkligen!)" />
+            <entry key="toast_new_note" value="Anteckning skapad" />
+            <entry key="toast_note_body_showing" value="Anteckningarnas inneh&#xe5;ll kommer nu att visas i anteckningslistan" />
+            <entry key="no_button" value="Nej" />
+            <entry key="dialog_restore_failed" value="F&#xf6;r att kunna &#xe5;terst&#xe4;lla anteckningar, m&#xe5;ste s&#xe4;kerhetskopian         finnas i \'External/Swiftnotes/swiftnotes_backup.json\'" />
+            <entry key="dialog_save_changes" value="Spara &#xe4;ndringar?" />
+            <entry key="action_restore" value="&#xc5;terst&#xe4;ll anteckningar" />
+            <entry key="note_body" value="Anteckning" />
+            <entry key="toast_restore_unsuccessful" value="&#xc5;terst&#xe4;llningen misslyckades" />
+            <entry key="dialog_restore_failed_title" value="Ingen s&#xe4;kerhetskopia hittades" />
+            <entry key="toast_note_body_hidden" value="Anteckningarnas inneh&#xe5;ll kommer nu att vara dold i anteckningslistan" />
+            <entry key="toast_restore_successful" value="Anteckningar &#xe5;terst&#xe4;llda" />
+            <entry key="action_delete_selected_number" value="Markerad" />
+            <entry key="favourite_content_description" value="Favorit" />
+            <entry key="dialog_rate_title" value="Betygs&#xe4;tt app" />
+            <entry key="action_delete" value="Ta bort" />
+            <entry key="toast_empty_note_discarded" value="Tom anteckning f&#xf6;rkastad" />
+            <entry key="dialog_note_colour" value="&#xc4;ndra anteckningens f&#xe4;rg" />
+            <entry key="action_rate_app" value="Betygs&#xe4;tt app" />
+            <entry key="dialog_check_restore_if_sure" value="&#xc4;r du s&#xe4;ker p&#xe5; att du vill &#xe5;terst&#xe4;lla s&#xe4;kerhetskopierade anteckningar?         (Kan inte &#xe5;ngras)" />
+            <entry key="toast_backup_failed" value="S&#xe4;kerhetskopieringen misslyckades" />
+            <entry key="dialog_delete" value="Markerade anteckningar kommer att tas bort!" />
+            <entry key="dialog_font_size" value="&#xc4;ndra anteckningens textstorlek" />
+            <entry key="yes_button" value="Ja" />
+            <entry key="no_notes_text" value="Tryck p&#xe5;  '+' f&#xf6;r att l&#xe4;gga till en ny anteckning" />
+            <entry key="dialog_backup_created_title" value="S&#xe4;kerhetskopieringen lyckades" />
+            <entry key="action_show_body" value="Visa anteckningens inneh&#xe5;ll i listan" />
+            <entry key="toast_note_saved" value="Anteckning sparad" />
+            <entry key="action_search" value="S&#xf6;k" />
+            <entry key="action_backup" value="S&#xe4;kerhetskopiera anteckningar" />
+            <entry key="title_edit_notes_activity" value="Anteckningar" />
+            <entry key="new_note_content_description" value="Ny anteckning" />
+            <entry key="toast_backup_no_notes" value="Inga anteckningar att s&#xe4;kerhetskopiera" />
+            <entry key="action_note_colour" value="Anteckningens f&#xe4;rg" />
+            <entry key="action_hide_body" value="G&#xf6;m anteckningens inneh&#xe5;ll i listan" />
+            <entry key="app_name" value="Swiftnotes" />
+            <entry key="dialog_check_backup_if_sure" value="&#xc4;r du s&#xe4;ker p&#xe5; att du vill ta en s&#xe4;kerhetskopia p&#xe5; aktuella anteckningar?" />
+        </lang>
+        <lang name="en">
+            <entry key="action_font_size" value="Note font size" />
+            <entry key="dialog_backup_created" value="Backup created in" />
+            <entry key="toast_deleted" value="Delete successful" />
+            <entry key="note_title" value="Title" />
+            <entry key="toast_edittext_cannot_be_empty" value="Title cannot be empty" />
+            <entry key="dialog_rate_message" value="Open app in Play Store?         (Thank you for rating! We really appreciate it!)" />
+            <entry key="toast_new_note" value="Note created" />
+            <entry key="toast_note_body_showing" value="Note body will now be shown in notes list" />
+            <entry key="no_button" value="No" />
+            <entry key="dialog_restore_failed" value="To restore notes, the backup file         has to be in \'External/Swiftnotes/swiftnotes_backup.json\'" />
+            <entry key="dialog_save_changes" value="Save changes?" />
+            <entry key="action_restore" value="Restore notes" />
+            <entry key="note_body" value="Note" />
+            <entry key="toast_restore_unsuccessful" value="Restore unsuccessful" />
+            <entry key="dialog_restore_failed_title" value="No backup found" />
+            <entry key="toast_note_body_hidden" value="Note body will now be hidden in notes list" />
+            <entry key="toast_restore_successful" value="Notes restored" />
+            <entry key="action_delete_selected_number" value="Selected" />
+            <entry key="favourite_content_description" value="Favourite" />
+            <entry key="dialog_rate_title" value="Rate app" />
+            <entry key="action_delete" value="Delete" />
+            <entry key="toast_empty_note_discarded" value="Empty note discarded" />
+            <entry key="dialog_note_colour" value="Change note colour" />
+            <entry key="action_rate_app" value="Rate app" />
+            <entry key="dialog_check_restore_if_sure" value="Are you sure you want to restore backup notes?         (Cannot be undone)" />
+            <entry key="toast_backup_failed" value="Backup unsuccessful" />
+            <entry key="dialog_delete" value="Selected notes will be deleted!" />
+            <entry key="dialog_font_size" value="Change note font size" />
+            <entry key="yes_button" value="Yes" />
+            <entry key="no_notes_text" value="Press '+' to add new note" />
+            <entry key="dialog_backup_created_title" value="Backup successful" />
+            <entry key="action_show_body" value="Show note body in list" />
+            <entry key="toast_note_saved" value="Note saved" />
+            <entry key="action_search" value="Search" />
+            <entry key="action_backup" value="Backup notes" />
+            <entry key="title_edit_notes_activity" value="Note" />
+            <entry key="new_note_content_description" value="New note" />
+            <entry key="toast_backup_no_notes" value="No notes to backup" />
+            <entry key="action_note_colour" value="Note colour" />
+            <entry key="action_hide_body" value="Hide note body in list" />
+            <entry key="app_name" value="Swiftnotes" />
+            <entry key="dialog_check_backup_if_sure" value="Are you sure you want to backup current notes?" />
+        </lang>
+        <lang name="cs">
+            <entry key="action_font_size" value="Velikost p&#xed;sma pozn&#xe1;mky" />
+            <entry key="dialog_backup_created" value="Z&#xe1;loha vytvo&#x159;ena v" />
+            <entry key="toast_deleted" value="Odstranit &#xfa;sp&#x11b;&#x161;n&#xe9;" />
+            <entry key="note_title" value="P&#x159;edm&#x11b;t" />
+            <entry key="toast_edittext_cannot_be_empty" value="P&#x159;edm&#x11b;t nem&#x16f;&#x17e;e b&#xfd;t pr&#xe1;zdn&#xfd;" />
+            <entry key="dialog_rate_message" value="Otev&#x159;&#xed;t aplikaci v Obchod&#x11b; Play?         (D&#x11b;kujeme za va&#x161;e hodnocen&#xed;! Opravdu si toho v&#xe1;&#x17e;&#xed;me!)" />
+            <entry key="toast_new_note" value="Pozn&#xe1;mka vytvo&#x159;ena" />
+            <entry key="toast_note_body_showing" value="Text pozn&#xe1;mky bude zobrazen v seznamu pozn&#xe1;mek" />
+            <entry key="no_button" value="Ne" />
+            <entry key="dialog_restore_failed" value="Pro obnoven&#xed; pozn&#xe1;mek, soubor z&#xe1;lohy         mus&#xed; b&#xfd;t v \'External/Swiftnotes/swiftnotes_backup.json\'" />
+            <entry key="dialog_save_changes" value="Ulo&#x17e;it zm&#x11b;ny?" />
+            <entry key="action_restore" value="Obnovit pozn&#xe1;mky" />
+            <entry key="note_body" value="Pozn&#xe1;mka" />
+            <entry key="toast_restore_unsuccessful" value="Obnova se nezda&#x159;ila" />
+            <entry key="dialog_restore_failed_title" value="Z&#xe1;loha nenalezena" />
+            <entry key="toast_note_body_hidden" value="Text pozn&#xe1;mky bude skryt v seznamu pozn&#xe1;mek" />
+            <entry key="toast_restore_successful" value="Pozn&#xe1;mky obnoveny" />
+            <entry key="action_delete_selected_number" value="Vybran&#xfd;" />
+            <entry key="favourite_content_description" value="Obl&#xed;ben&#xe9;" />
+            <entry key="dialog_rate_title" value="Hodnotit aplikaci" />
+            <entry key="action_delete" value="Smazat" />
+            <entry key="toast_empty_note_discarded" value="Pr&#xe1;zdn&#xe1; pozn&#xe1;mka zahozena" />
+            <entry key="dialog_note_colour" value="Zm&#x11b;nit barvu pozn&#xe1;mky" />
+            <entry key="action_rate_app" value="Hodnotit aplikaci" />
+            <entry key="dialog_check_restore_if_sure" value="Opravdu chcete obnovit pozn&#xe1;mky ze z&#xe1;lohy?         (Nelze vr&#xe1;tit zp&#x11b;t)" />
+            <entry key="toast_backup_failed" value="Z&#xe1;lohov&#xe1;n&#xed; se nezda&#x159;ilo" />
+            <entry key="dialog_delete" value="Vybran&#xe9; pozn&#xe1;mky budou smaz&#xe1;ny!" />
+            <entry key="dialog_font_size" value="Zm&#x11b;nit velikost p&#xed;sma pozn&#xe1;mky" />
+            <entry key="yes_button" value="Ano" />
+            <entry key="no_notes_text" value="Stiskni '+' pro p&#x159;id&#xe1;n&#xed; pozn&#xe1;mky" />
+            <entry key="dialog_backup_created_title" value="&#xda;sp&#x11b;&#x161;n&#x11b; z&#xe1;lohov&#xe1;no" />
+            <entry key="action_show_body" value="Zobrazit pozn&#xe1;mku t&#x11b;lo v seznamu" />
+            <entry key="toast_note_saved" value="Pozn&#xe1;mka ulo&#x17e;ena" />
+            <entry key="action_search" value="Vyhled&#xe1;v&#xe1;n&#xed;" />
+            <entry key="action_backup" value="Z&#xe1;lohovat pozn&#xe1;mky" />
+            <entry key="title_edit_notes_activity" value="Pozn&#xe1;mka" />
+            <entry key="new_note_content_description" value="Nov&#xe1; pozn&#xe1;mka" />
+            <entry key="toast_backup_no_notes" value="&#x17d;&#xe1;dn&#xe9; pozn&#xe1;mky k z&#xe1;lohov&#xe1;n&#xed;" />
+            <entry key="action_note_colour" value="Barva pozn&#xe1;mky" />
+            <entry key="action_hide_body" value="Skr&#xfd;t pozn&#xe1;mku t&#x11b;lo v seznamu" />
+            <entry key="app_name" value="Swiftnotes" />
+            <entry key="dialog_check_backup_if_sure" value="Opravdu chcete z&#xe1;lohovat st&#xe1;vaj&#xed;c&#xed; pozn&#xe1;mky?" />
+        </lang>
+        <lang name="ro">
+            <entry key="action_font_size" value="Marime font notita" />
+            <entry key="dialog_backup_created" value="Rezerva creata in" />
+            <entry key="toast_deleted" value="Stergere efectuata cu succes" />
+            <entry key="note_title" value="Titlu" />
+            <entry key="toast_edittext_cannot_be_empty" value="Titlul notitei nu poate fi gol" />
+            <entry key="dialog_rate_message" value="Deschide aplicatia in Play Store?         (Multumim pentru evaluare!)" />
+            <entry key="toast_new_note" value="Notita creata cu succes" />
+            <entry key="toast_note_body_showing" value="Corpul notitei va fi vizibil in lista" />
+            <entry key="no_button" value="Nu" />
+            <entry key="dialog_restore_failed" value="Pentru a restaura notitele, fisierul de rezerva trebuie         sa fie in \'External/Swiftnotes/swiftnotes_backup.json\'" />
+            <entry key="dialog_save_changes" value="Salveaza schimbari?" />
+            <entry key="action_restore" value="Restaureaza notite" />
+            <entry key="note_body" value="Notita" />
+            <entry key="toast_restore_unsuccessful" value="Restaurarea notitelor a fost nereusita" />
+            <entry key="dialog_restore_failed_title" value="Rezerva nu a fost gasita" />
+            <entry key="toast_note_body_hidden" value="Corpul notitei va fi ascuns in lista" />
+            <entry key="toast_restore_successful" value="Notite restaurate cu succes" />
+            <entry key="action_delete_selected_number" value="Selectate" />
+            <entry key="favourite_content_description" value="Favorit" />
+            <entry key="dialog_rate_title" value="Evalueaza aplicatia" />
+            <entry key="action_delete" value="Sterge" />
+            <entry key="toast_empty_note_discarded" value="Notita goala anulata" />
+            <entry key="dialog_note_colour" value="Schimba culoarea notitei" />
+            <entry key="action_rate_app" value="Evalueaza aplicatie" />
+            <entry key="dialog_check_restore_if_sure" value="Sunteti sigur ca vreti sa restaurati notitele rezervate?         (Nu se poate anula)" />
+            <entry key="toast_backup_failed" value="Rezervarea notitelor a fost nereusita" />
+            <entry key="dialog_delete" value="Notitele selectate vor fi sterse!" />
+            <entry key="dialog_font_size" value="Schimba marimea fontului notitei" />
+            <entry key="yes_button" value="Da" />
+            <entry key="no_notes_text" value="Apasa '+' pentru a crea o notita noua" />
+            <entry key="dialog_backup_created_title" value="Rezerva creata cu succes" />
+            <entry key="action_show_body" value="Arata corpul notitei in lista" />
+            <entry key="toast_note_saved" value="Notita salvata cu succes" />
+            <entry key="action_search" value="Cauta" />
+            <entry key="action_backup" value="Rezerva notite" />
+            <entry key="title_edit_notes_activity" value="Notita" />
+            <entry key="new_note_content_description" value="Notita noua" />
+            <entry key="toast_backup_no_notes" value="Nu exista notite de rezervat" />
+            <entry key="action_note_colour" value="Culoare notita" />
+            <entry key="action_hide_body" value="Ascunde corpul notitei in lista" />
+            <entry key="app_name" value="Swiftnotes" />
+            <entry key="dialog_check_backup_if_sure" value="Sunteti sigur ca vreti sa rezervati notitele curente?" />
+        </lang>
+        <lang name="de">
+            <entry key="action_font_size" value="Schriftgr&#xf6;&#xdf;e der Notiz" />
+            <entry key="dialog_backup_created" value="Backup erstellt in" />
+            <entry key="toast_deleted" value="L&#xf6;schen erfolgreich" />
+            <entry key="note_title" value="Titel" />
+            <entry key="toast_edittext_cannot_be_empty" value="Der Titel kann nicht leer sein" />
+            <entry key="dialog_rate_message" value="App im Play Store &#xf6;ffnen?         (Danke f&#xfc;r deine Bewertung! Wir wissen das sehr zu sch&#xe4;tzen!)" />
+            <entry key="toast_new_note" value="Notiz erstellt" />
+            <entry key="toast_note_body_showing" value="Textk&#xf6;rper der Notiz wird jetzt angezeigt in Notizen" />
+            <entry key="no_button" value="Nein" />
+            <entry key="dialog_restore_failed" value="Um die Notizen wiederherzustellen, muss die Backup Datei         in \'External/Swiftnotes/swiftnotes_backup.json\' sein" />
+            <entry key="dialog_save_changes" value="&#xc4;nderungen speichern?" />
+            <entry key="action_restore" value="Notizen wiederherstellen" />
+            <entry key="note_body" value="Notiz" />
+            <entry key="toast_restore_unsuccessful" value="Wiederherstellung nicht erfolgreich" />
+            <entry key="dialog_restore_failed_title" value="Kein Backup gefunden" />
+            <entry key="toast_note_body_hidden" value="Hinweis K&#xf6;rper wird nun Notizen Liste ausgeblendet werden" />
+            <entry key="toast_restore_successful" value="Notizen wiederhergestellt" />
+            <entry key="action_delete_selected_number" value="Ausgew&#xe4;hlt" />
+            <entry key="favourite_content_description" value="Favorit" />
+            <entry key="dialog_rate_title" value="App bewerten" />
+            <entry key="action_delete" value="L&#xf6;schen" />
+            <entry key="toast_empty_note_discarded" value="Leere Notiz verworfen" />
+            <entry key="dialog_note_colour" value="Farbe der Notiz &#xe4;ndern" />
+            <entry key="action_rate_app" value="App bewerten" />
+            <entry key="dialog_check_restore_if_sure" value="Bist du dir sicher, dass du die Notizen wiederherstellen willst?         (Kann nicht r&#xfc;ckg&#xe4;ngig gemacht werden)" />
+            <entry key="toast_backup_failed" value="Backup nicht erfolgreich" />
+            <entry key="dialog_delete" value="Ausgew&#xe4;hlte Erl&#xe4;uterungen werden gel&#xf6;scht!" />
+            <entry key="dialog_font_size" value="Schriftgr&#xf6;&#xdf;e der Notiz &#xe4;ndern" />
+            <entry key="yes_button" value="Ja" />
+            <entry key="no_notes_text" value="Dr&#xfc;cke '+' um eine neue Notiz hinzuzuf&#xfc;gen" />
+            <entry key="dialog_backup_created_title" value="Backup erfolgreich" />
+            <entry key="action_show_body" value="Anzeigen Hinweis Stelle in der Liste" />
+            <entry key="toast_note_saved" value="Notiz gespeichert" />
+            <entry key="action_search" value="Suche" />
+            <entry key="action_backup" value="Notizen sichern" />
+            <entry key="title_edit_notes_activity" value="Notizen" />
+            <entry key="new_note_content_description" value="Neue Notiz" />
+            <entry key="toast_backup_no_notes" value="Keine Notizen f&#xfc;r das Backup" />
+            <entry key="action_note_colour" value="Farbe der Notiz" />
+            <entry key="action_hide_body" value="Ausblenden Hinweis Stelle in der Liste" />
+            <entry key="app_name" value="Swiftnotes" />
+            <entry key="dialog_check_backup_if_sure" value="Bist du dir sicher, dass du ein Backup der Notizen machen willst?" />
+        </lang>
+    </l10n>
+    <theme name="Theme">
+        <val key="@includeNativeBool" value="true" />
+        <border key="AndroidButton11.border" type="imageH" i1="ic_new.png" i2="TransparentPlaceholer1x98.png" i3="TransparentPlaceholer1x98.png" />
+        <val key="AndroidButton11.derive" value="Button" />
+        <border key="AndroidButton11.dis#border" type="imageH" i1="ic_new.png" i2="TransparentPlaceholer1x98.png" i3="TransparentPlaceholer1x98.png" />
+        <val key="AndroidButton11.dis#derive" value="Button.dis" />
+        <border key="AndroidButton11.press#border" type="imageH" i1="ic_new_pressed.png" i2="TransparentPlaceholer1x98.png" i3="TransparentPlaceholer1x98.png" />
+        <val key="AndroidButton11.press#derive" value="Button.press" />
+        <border key="AndroidButton11.sel#border" type="imageH" i1="ic_new_pressed.png" i2="TransparentPlaceholer1x98.png" i3="TransparentPlaceholer1x98.png" />
+        <val key="AndroidButton11.sel#derive" value="Button.sel" />
+        <val key="AndroidButton24.derive" value="Button" />
+        <val key="AndroidButton24.dis#derive" value="Button.dis" />
+        <val key="AndroidButton24.press#derive" value="Button.press" />
+        <val key="AndroidButton24.sel#derive" value="Button.sel" />
+        <val key="AndroidContainer1.derive" value="Container" />
+        <val key="AndroidContainer1.dis#derive" value="Container.dis" />
+        <val key="AndroidContainer1.press#derive" value="Container.press" />
+        <val key="AndroidContainer1.sel#derive" value="Container.sel" />
+        <val key="AndroidContainer5.derive" value="Container" />
+        <val key="AndroidContainer5.dis#derive" value="Container.dis" />
+        <val key="AndroidContainer5.dis#padUnit" value="2,0,2,0" />
+        <val key="AndroidContainer5.dis#padding" value="1,1,0,0" />
+        <val key="AndroidContainer5.padUnit" value="2,0,2,0" />
+        <val key="AndroidContainer5.padding" value="1,1,0,0" />
+        <val key="AndroidContainer5.press#derive" value="Container.press" />
+        <val key="AndroidContainer5.press#padUnit" value="2,0,2,0" />
+        <val key="AndroidContainer5.press#padding" value="1,1,0,0" />
+        <val key="AndroidContainer5.sel#derive" value="Container.sel" />
+        <val key="AndroidContainer5.sel#padUnit" value="2,0,2,0" />
+        <val key="AndroidContainer5.sel#padding" value="1,1,0,0" />
+        <val key="AndroidLabel12.derive" value="Label" />
+        <val key="AndroidLabel12.dis#derive" value="Label.dis" />
+        <val key="AndroidLabel12.press#derive" value="Label.press" />
+        <val key="AndroidLabel12.sel#derive" value="Label.sel" />
+        <val key="AndroidLabel22.derive" value="Label" />
+        <val key="AndroidLabel22.dis#derive" value="Label.dis" />
+        <val key="AndroidLabel22.dis#padUnit" value="0,0,2,0" />
+        <val key="AndroidLabel22.dis#padding" value="0,1,0,0" />
+        <val key="AndroidLabel22.padUnit" value="0,0,2,0" />
+        <val key="AndroidLabel22.padding" value="0,1,0,0" />
+        <val key="AndroidLabel22.press#derive" value="Label.press" />
+        <val key="AndroidLabel22.press#padUnit" value="0,0,2,0" />
+        <val key="AndroidLabel22.press#padding" value="0,1,0,0" />
+        <val key="AndroidLabel22.sel#derive" value="Label.sel" />
+        <val key="AndroidLabel22.sel#padUnit" value="0,0,2,0" />
+        <val key="AndroidLabel22.sel#padding" value="0,1,0,0" />
+        <val key="AndroidList10.derive" value="List" />
+        <val key="AndroidList10.dis#derive" value="List.dis" />
+        <val key="AndroidList10.dis#padUnit" value="2,2,2,2" />
+        <val key="AndroidList10.dis#padding" value="1,1,3,3" />
+        <val key="AndroidList10.padUnit" value="2,2,2,2" />
+        <val key="AndroidList10.padding" value="1,1,3,3" />
+        <val key="AndroidList10.press#derive" value="List.press" />
+        <val key="AndroidList10.press#padUnit" value="2,2,2,2" />
+        <val key="AndroidList10.press#padding" value="1,1,3,3" />
+        <val key="AndroidList10.sel#derive" value="List.sel" />
+        <val key="AndroidList10.sel#padUnit" value="2,2,2,2" />
+        <val key="AndroidList10.sel#padding" value="1,1,3,3" />
+        <val key="AndroidSlider15.derive" value="Slider" />
+        <val key="AndroidSlider15.dis#derive" value="Slider.dis" />
+        <val key="AndroidSlider15.press#derive" value="Slider.press" />
+        <val key="AndroidSlider15.sel#derive" value="Slider.sel" />
+        <val key="AndroidSpanLabel3.derive" value="SpanLabel" />
+        <val key="AndroidSpanLabel3.dis#derive" value="SpanLabel.dis" />
+        <val key="AndroidSpanLabel3.dis#padUnit" value="0,2,0,2" />
+        <val key="AndroidSpanLabel3.dis#padding" value="0,0,1,1" />
+        <val key="AndroidSpanLabel3.padUnit" value="0,2,0,2" />
+        <val key="AndroidSpanLabel3.padding" value="0,0,1,1" />
+        <val key="AndroidSpanLabel3.press#derive" value="SpanLabel.press" />
+        <val key="AndroidSpanLabel3.press#padUnit" value="0,2,0,2" />
+        <val key="AndroidSpanLabel3.press#padding" value="0,0,1,1" />
+        <val key="AndroidSpanLabel3.sel#derive" value="SpanLabel.sel" />
+        <val key="AndroidSpanLabel3.sel#padUnit" value="0,2,0,2" />
+        <val key="AndroidSpanLabel3.sel#padding" value="0,0,1,1" />
+        <val key="AndroidSpanLabel4.derive" value="SpanLabel" />
+        <val key="AndroidSpanLabel4.dis#derive" value="SpanLabel.dis" />
+        <val key="AndroidSpanLabel4.dis#padUnit" value="0,2,0,2" />
+        <val key="AndroidSpanLabel4.dis#padding" value="0,0,2,2" />
+        <val key="AndroidSpanLabel4.padUnit" value="0,2,0,2" />
+        <val key="AndroidSpanLabel4.padding" value="0,0,2,2" />
+        <val key="AndroidSpanLabel4.press#derive" value="SpanLabel.press" />
+        <val key="AndroidSpanLabel4.press#padUnit" value="0,2,0,2" />
+        <val key="AndroidSpanLabel4.press#padding" value="0,0,2,2" />
+        <val key="AndroidSpanLabel4.sel#derive" value="SpanLabel.sel" />
+        <val key="AndroidSpanLabel4.sel#padUnit" value="0,2,0,2" />
+        <val key="AndroidSpanLabel4.sel#padding" value="0,0,2,2" />
+        <val key="FloatingActionButton.press#transparency" value="0" />
+        <val key="FloatingActionButton.sel#transparency" value="0" />
+        <val key="FloatingActionButton.transparency" value="0" />
+        <val key="MenuButton.fgColor" value="ffffff" />
+        <font key="MenuButton.font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="4.0" />
+        <val key="MenuButton.transparency" value="0" />
+        <val key="NoteBody.fgColor" value="0" />
+        <font key="NoteBody.font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="2.5" />
+        <val key="NoteBody.padUnit" value="2,2,2,2" />
+        <val key="NoteBody.padding" value="1,1,1,1" />
+        <val key="NoteBody.press#fgColor" value="0" />
+        <font key="NoteBody.press#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="2.5" />
+        <val key="NoteBody.press#transparency" value="0" />
+        <val key="NoteBody.sel#fgColor" value="0" />
+        <font key="NoteBody.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="2.5" />
+        <val key="NoteBody.sel#transparency" value="0" />
+        <val key="NoteBody.transparency" value="0" />
+        <val key="NoteTitle.fgColor" value="0" />
+        <font key="NoteTitle.font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="3.5" />
+        <val key="NoteTitle.padUnit" value="2,2,2,2" />
+        <val key="NoteTitle.padding" value="1,1,1,1" />
+        <val key="NoteTitle.press#fgColor" value="0" />
+        <font key="NoteTitle.press#font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="3.5" />
+        <val key="NoteTitle.press#padUnit" value="2,2,2,2" />
+        <val key="NoteTitle.press#padding" value="1,1,1,1" />
+        <val key="NoteTitle.press#transparency" value="0" />
+        <val key="NoteTitle.sel#fgColor" value="0" />
+        <font key="NoteTitle.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="3.5" />
+        <val key="NoteTitle.sel#padUnit" value="2,2,2,2" />
+        <val key="NoteTitle.sel#padding" value="1,1,1,1" />
+        <val key="NoteTitle.sel#transparency" value="0" />
+        <val key="NoteTitle.transparency" value="0" />
+        <border key="Slider.border" type="round" roundBorderColor="13840175" opacity="255" strokeColor="0" strokeOpacity="255" strokeThickness="2.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <border key="Slider.sel#border" type="round" roundBorderColor="13840175" opacity="255" strokeColor="0" strokeOpacity="255" strokeThickness="2.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="Slider.sel#transparency" value="0" />
+        <val key="Slider.transparency" value="0" />
+        <border key="SliderFull.border" type="round" roundBorderColor="13840175" opacity="255" strokeColor="0" strokeOpacity="255" strokeThickness="2.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <border key="SliderFull.sel#border" type="round" roundBorderColor="13840175" opacity="255" strokeColor="0" strokeOpacity="255" strokeThickness="2.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="SliderFull.sel#transparency" value="0" />
+        <val key="SliderFull.transparency" value="0" />
+        <val key="StatusBar.bgColor" value="b00a31" />
+        <val key="StatusBar.transparency" value="255" />
+        <val key="Title.fgColor" value="ffffff" />
+        <font key="Title.font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="4.5" />
+        <val key="Title.padUnit" value="2,2,2,2" />
+        <val key="Title.padding" value="2,2,2,2" />
+        <val key="Title.transparency" value="0" />
+        <val key="TitleCommand.fgColor" value="ffffff" />
+        <font key="TitleCommand.font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="4.0" />
+        <val key="TitleCommand.padUnit" value="2,2,2,2" />
+        <val key="TitleCommand.padding" value="2,2,2,2" />
+        <val key="TitleCommand.press#fgColor" value="ffffff" />
+        <font key="TitleCommand.press#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="4.0" />
+        <val key="TitleCommand.press#padUnit" value="2,2,2,2" />
+        <val key="TitleCommand.press#padding" value="2,2,2,2" />
+        <val key="TitleCommand.press#transparency" value="0" />
+        <val key="TitleCommand.sel#fgColor" value="ffffff" />
+        <font key="TitleCommand.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="4.0" />
+        <val key="TitleCommand.sel#padUnit" value="2,2,2,2" />
+        <val key="TitleCommand.sel#padding" value="2,2,2,2" />
+        <val key="TitleCommand.sel#transparency" value="0" />
+        <val key="TitleCommand.transparency" value="0" />
+        <val key="Toolbar.bgColor" value="ce0a31" />
+        <border key="Toolbar.border" type="empty" />
+        <val key="Toolbar.padUnit" value="2,2,2,2" />
+        <val key="Toolbar.padding" value="0,0,0,0" />
+        <val key="Toolbar.transparency" value="255" />
+        <val key="background.bgImage" value="collection-gratuit-voitures-top-background-walls-wallpapers-115676.jpg" />
+        <val key="background.bgType" value="1" />
+    </theme>
+    <image name="TransparentPlaceholer1x98.png"  />
+</resource>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Rechercher" cloudDestinationProperty="Rechercher" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="Y" >
+    <component type="Label" name="TITRE" cloudDestinationProperty="TITRE" text="TITRE" >
+    </component>
+    <component type="TextField" name="TITRE" cloudBoundProperty="text" cloudDestinationProperty="TITRE" text="" >
+    </component>
+    <component type="Label" name="Label" cloudDestinationProperty="Label" text="REGION" >
+    </component>
+    <component type="TextField" name="REGION" cloudBoundProperty="text" cloudDestinationProperty="REGION" text="" >
+    </component>
+    <component type="Label" name="BOITE" cloudDestinationProperty="BOITE" text="BOITE" >
+    </component>
+    <component type="TextField" name="BOITE" cloudBoundProperty="text" cloudDestinationProperty="BOITE" text="" >
+    </component>
+    <component type="Button" name="RECHERCHER" cloudDestinationProperty="RECHERCHER" text="RECHERCHER" >
+    </component>
+  </component>
+</component>

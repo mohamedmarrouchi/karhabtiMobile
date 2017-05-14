@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="home" cloudDestinationProperty="home" layout="BoxLayout" boxLayoutAxis="Y" >
+  <component type="Label" name="Label" cloudDestinationProperty="Label" text="WELCOM" >
+  </component>
+  <component type="ImageViewer" name="imgTeacher" cloudDestinationProperty="imgTeacher" >
+    <custom name="eagerLock" type="java.lang.Boolean" value="false" />
+    <custom name="image" type="com.codename1.ui.Image" value="028A000005629318-photo-quiz-une-voiture-un-moteur.jpg" />
+  </component>
+</component>

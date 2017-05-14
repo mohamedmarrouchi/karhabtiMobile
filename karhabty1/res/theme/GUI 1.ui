@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="GUI 1" cloudDestinationProperty="GUI 1" layout="BoxLayout" boxLayoutAxis="Y" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="Y" >
+    <component type="Label" name="Label2" cloudDestinationProperty="Label2" text="TITRE" >
+    </component>
+    <component type="TextField" name="txttitre" cloudBoundProperty="text" cloudDestinationProperty="txttitre" text="" >
+    </component>
+    <component type="Label" name="Label4" cloudDestinationProperty="Label4" text="REGION" >
+    </component>
+    <component type="TextField" name="txtregion" cloudBoundProperty="text" cloudDestinationProperty="txtregion" text="" >
+    </component>
+    <component type="Label" name="Label" cloudDestinationProperty="Label" text="ENERGIE" >
+    </component>
+    <component type="TextField" name="txtenergie" cloudBoundProperty="text" cloudDestinationProperty="txtenergie" text="" >
+    </component>
+    <component type="Label" name="lblboite" cloudDestinationProperty="lblboite" text="BOITE" >
+    </component>
+    <component type="TextField" name="txtboite" cloudBoundProperty="text" cloudDestinationProperty="txtboite" text="" >
+    </component>
+    <component type="Label" name="Label3" cloudDestinationProperty="Label3" text="NOMBRE DE CYLINDRES" >
+    </component>
+    <component type="TextField" name="txtnombre_de_cylindres" cloudBoundProperty="text" cloudDestinationProperty="txtnombre_de_cylindres" text="" >
+    </component>
+    <component type="Label" name="Label6" cloudDestinationProperty="Label6" text="CYLINDREE" >
+    </component>
+    <component type="TextField" name="txtcylindree" cloudBoundProperty="text" cloudDestinationProperty="txtcylindree" text="" >
+    </component>
+    <component type="Label" name="Label7" cloudDestinationProperty="Label7" text="PUISSANCE FISCALE" >
+    </component>
+    <component type="TextField" name="txtpuissance_fiscale" cloudBoundProperty="text" cloudDestinationProperty="txtpuissance_fiscale" text="" >
+    </component>
+    <component type="Label" name="Label1" cloudDestinationProperty="Label1" text="PRIX" >
+    </component>
+    <component type="TextField" name="txtprix" cloudBoundProperty="text" cloudDestinationProperty="txtprix" text="" >
+    </component>
+  </component>
+  <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="BoxLayout" boxLayoutAxis="X" >
+    <component type="Label" name="Label8" cloudDestinationProperty="Label8" text="Ajouter Image" >
+    </component>
+    <component type="Button" name="btnajoutphoto" cloudDestinationProperty="btnajoutphoto" text="Choisir une fichier" >
+    </component>
+  </component>
+  <component type="Button" name="btnajout" cloudDestinationProperty="btnajout" text="Ajouter" >
+  </component>
+</component>
